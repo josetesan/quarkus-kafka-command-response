@@ -1,0 +1,23 @@
+{
+  "namespace": "com.josetesan.dev.avro",
+  "type": "record",
+  "name": "CommandResponse",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "requestId",
+      "type": "long"
+    },
+    {
+      "name": "result",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "type": "int"
+    }
+  ]
+}

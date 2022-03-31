@@ -1,0 +1,15 @@
+{
+  "namespace": "com.josetesan.dev.avro",
+  "type": "record",
+  "name": "CommandRequest",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    },
+    {
+      "name": "command",
+      "type": "string"
+    }
+  ]
+}
